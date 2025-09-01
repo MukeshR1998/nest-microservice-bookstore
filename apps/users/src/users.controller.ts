@@ -8,6 +8,8 @@ export class UsersController {
 
   @MessagePattern('users.findAll')
   findAll() {
+    console.log('message pattern users');
+
     return this.usersService.findAll();
   }
 }

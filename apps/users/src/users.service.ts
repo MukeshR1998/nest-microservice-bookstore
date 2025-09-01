@@ -13,6 +13,8 @@ export class UsersService {
     },
   ];
   findAll() {
+    console.log('message pattern users service');
+
     return this.users;
   }
 }
